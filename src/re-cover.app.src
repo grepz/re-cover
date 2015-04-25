@@ -1,0 +1,10 @@
+%% -*- mode: erlang -*-
+
+{application, re-cover,
+ [
+  {description, "Cover helpers"},
+  {vsn, "0.1"},
+  {modules, []},
+  {applications, [kernel, stdlib, cover]},
+  {registered, []}
+ ]}.
